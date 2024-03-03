@@ -20,4 +20,5 @@ int show()*/
 doing coneptually different tasks.*/
 
 /*-C++ does not allow identically named functions to
-differ only in thei return values.*/
+differ in their return values. Only input arguments
+can be different.*/
