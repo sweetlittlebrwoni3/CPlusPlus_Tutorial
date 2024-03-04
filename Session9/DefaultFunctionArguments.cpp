@@ -18,3 +18,9 @@ parameter and not the last ones.for example:
 int sum(int a,int b=1,int c){return a+b;}     //Error
 Because we cant use the function like the last line.*/
 
+/*Default arguments must be known at compile time
+since at that moment arguments are supplied to functions.
+Therefore, the default arguments must be mentioned
+at the function's declaration, rather than
+its implementation.
+(DefaultFunctionArguments practice)*/
