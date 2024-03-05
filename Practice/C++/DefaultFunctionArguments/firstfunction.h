@@ -1,1 +1,1 @@
-void test(int a,int b);
+void test(int a=6,int b=5);
