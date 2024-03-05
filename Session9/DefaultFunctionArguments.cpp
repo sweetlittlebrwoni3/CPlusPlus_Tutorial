@@ -24,3 +24,14 @@ Therefore, the default arguments must be mentioned
 at the function's declaration, rather than
 its implementation.
 (DefaultFunctionArguments practice)*/
+
+/*Implementation is when you write the whole function
+and declaration is when you just write the name of
+the function to be able to use it.*/
+
+/*As for the question asked,
+default arguments should be supplied to functions
+only in declaration meaning only in these files:
+firstfunction.h or secondfunction.cpp
+and should not be in both these files simultanously.
+This is also the case when not using a header file*/
