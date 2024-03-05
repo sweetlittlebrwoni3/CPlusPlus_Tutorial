@@ -5,4 +5,3 @@ void test(int a,int b)
 {
     printf("%d\n",a+b);
 }
-//test
