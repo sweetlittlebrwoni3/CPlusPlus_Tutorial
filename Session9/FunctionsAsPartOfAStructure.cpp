@@ -4,8 +4,11 @@ using namespace std;
 
 /*We can have functions in structures as well.
 This is different from functions in classes.
-The functions in classes are called by reference
-but in structs are called by value.*/
+In classes it's call by refrence but in structs
+it's call by value.
+Meaning when we pass a struct to a function, it's
+call by value but when we pass a class to a function,
+it's call by reference.*/
 
 /*in C++*/
 struct Person
@@ -14,6 +17,8 @@ struct Person
     char address[80];
     void print();
 };
+
+/*The method can be defined outside the struct.*/
 void Person::print()
 {
     cout<<"Name: "<<name<<"\n"
